@@ -19,3 +19,6 @@ else:
     print ("%d no es un número primo, se puede dividir entre %d" % (num, contador))
 
 input()
+
+#La ventaja de usar un while en vez de un for es que si le doy un número como 6*10^65 en cuanto haya dividido entre dos se parará y no realizará el resto
+#de las 6*10^65 operaciones restantes que intentaría hacer con un for.
