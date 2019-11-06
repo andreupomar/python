@@ -1,7 +1,7 @@
 #Andreu Pomar Cabot
 #Ejercicio 7.6 - Comprobar si un str contiene un caracter determinado
 
-def sherlock():
+def sherlock(frase,letra):
     if frase.find(letra) > -1:
         return True
     else:
@@ -10,7 +10,7 @@ def sherlock():
 frase = str(input("Introduzca una frase: "))
 letra = str(input("¿Qué letra hay que buscar? "))
 
-if sherlock() == True:
+if sherlock(frase,letra) == True:
     print ("Contiene la letra")
 else:
     print ("No contiene la letra")
